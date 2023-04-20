@@ -26,7 +26,7 @@ if (!$entry) {                                          // If entry not found
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&family=Noto+Serif:wght@400..700&family=Source+Sans+Pro:wght@200..900&display=swap" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&family=Noto+Serif:wght@700&family=Source+Sans+Pro:wght@600" type="text/css">
         <link rel="icon" type="image/png" href="favicon.png">
         <script src="https://kit.fontawesome.com/32ae876081.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width">
@@ -35,7 +35,7 @@ if (!$entry) {                                          // If entry not found
     </head>
     <body>
         <!-- Header bar -->
-        <header>
+        <header class="header-standard">
             <div class="container">
                 <a class="link-logo" href="https://jargony.infinityfreeapp.com/"><img id="logo-standard" class="img-logo" src="logo_jargony.svg" alt="jargony logo"> <img id="logo-alt" class="img-logo" src="logo_jargony_white.svg" alt="jargony logo"></a>
                 <nav class="nav-bar">
@@ -78,8 +78,9 @@ if (!$entry) {                                          // If entry not found
             </div>
         </section>
         <footer>
-            <div class="container">
+            <div class="container footer-flex">
                 <p>©2023 Jargony. All rights reserved.</p>
+                <p>Powered by: <a class="link-footer" href="https://www.sitesearch360.com/" target="_blank">Site Search 360</a> / <a class="link-footer" href="https://www.infinityfree.net/" target="_blank">InfinityFree</a> / <a class="link-footer" href="https://websitevoice.com/" target="_blank">WebsiteVoice</a></p>
             </div>
         </footer>
         <script async src="https://js.sitesearch360.com/plugin/bundle/13135.js"></script>

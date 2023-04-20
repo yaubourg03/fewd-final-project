@@ -93,7 +93,7 @@ $alphas = array_merge(range('A', 'P'), range('R', 'X'));
     </head>
     <body>
         <!-- Header bar -->
-        <header>
+        <header class="header-standard">
             <div class="container">
                 <a class="link-logo" href="https://jargony.infinityfreeapp.com/"><img id="logo-standard" class="img-logo" src="logo_jargony.svg" alt="jargony logo"><img id="logo-alt" class="img-logo" src="logo_jargony_white.svg" alt="jargony logo"></a>
                 <nav class="nav-bar">
@@ -164,8 +164,9 @@ $alphas = array_merge(range('A', 'P'), range('R', 'X'));
         <!-- Scroll to top arrow -->
         <a href="#section-top" class="btn-scroll-top"><i class="fa-solid fa-circle-arrow-up"></i></a>  
         <footer>
-            <div class="container">
+            <div class="container footer-flex">
                 <p>©2023 Jargony. All rights reserved.</p>
+                <p>Powered by: <a class="link-footer" href="https://www.sitesearch360.com/" target="_blank">Site Search 360</a> / <a class="link-footer" href="https://www.infinityfree.net/" target="_blank">InfinityFree</a> / <a class="link-footer" href="https://websitevoice.com/" target="_blank">WebsiteVoice</a></p>
             </div>
         </footer>
         <script async src="https://js.sitesearch360.com/plugin/bundle/13135.js"></script>
