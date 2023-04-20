@@ -128,6 +128,8 @@ body {
 @media (max-width: 575px) {
     .div-list {
         padding: 0 1rem;
+        column-gap: .75rem;
+        flex-wrap: wrap;
     }
 }
 
@@ -321,12 +323,6 @@ input:focus {
     color: #555;
     font-weight: 600;
     opacity: .25;
-}
-
-@media (max-width: 575px) {
-    .link-standard.disabled, .link-landing.disabled  {
-        display: none;
-    }
 }
 
 .link-logo {
