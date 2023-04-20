@@ -84,7 +84,7 @@ $alphas = array_merge(range('A', 'P'), range('R', 'X'));
         <title>Jargony</title>
         <link rel="stylesheet" href="style.css">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&display=swap&family=Noto+Serif:wght@400..700&family=Source+Sans+Pro:wght@200..900" type="text/css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700&family=Noto+Serif:wght@700&family=Source+Sans+Pro:wght@600" type="text/css">
         <link rel="icon" type="image/png" href="favicon.png">
         <script src="https://kit.fontawesome.com/32ae876081.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width">
