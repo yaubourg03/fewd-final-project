@@ -565,10 +565,11 @@ input:focus {
     margin-bottom: 1.625rem;
     padding: 0;
     width: 100%;
+    line-height: 1.25;
 }
 
 .unstyled-list.list-tight li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .wv-button-placeholder {
